@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script>
+    function navigate() {
+        window.open("https://youtube.com", '_parent').focus();
+    }
+    </script>
 </head>
 <body>
     <style>
@@ -23,8 +28,9 @@
             cursor: pointer;
         }
     </style>
-    <a href="https://www.notion.so/cfc32070ecd44ee5802c2617248fbf6c?v=2aacc6865e3f4a4eadab403464f3b3b2&pvs=4">
-        <button class="button">Quick Notes Button</button>
-    </a>
+
+    <button class="button" onclick="navigate()">
+        Quick Note
+    </button>
 </body>
 </html>
