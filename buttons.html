@@ -6,6 +6,23 @@
     <title>Document</title>
 </head>
 <body>
-    <button>This is a test</button>
+    <style>
+        .button {
+            background-color: blueviolet;
+            color: white;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            transition: background-color 150ms, border-radius 150ms;
+            border-radius: 5px;
+        }
+        .button:hover {
+            background-color: rgb(106, 33, 175);
+            border-radius: 8px;
+            cursor: pointer;
+        }
+    </style>
+    <button class="button">Quick Note</button>
 </body>
 </html>
